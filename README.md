@@ -39,8 +39,6 @@ This API takes a sentence and returns:
 
 npm install
 node server.js
-Server runs at:
 
-arduino
-Copy code
+Server runs at:
 http://localhost:5000
