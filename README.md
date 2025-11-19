@@ -22,8 +22,6 @@ This API takes a sentence and returns:
   "sentence": "I love working with JavaScript and Node.js"
 }
 📥 Output
-json
-Copy code
 {
   "word_count": 7,
   "unique_words": [
@@ -38,8 +36,7 @@ Copy code
   "reversed_sentence": "Node.js and JavaScript with working love I"
 }
 ▶ How to Run Locally
-bash
-Copy code
+
 npm install
 node server.js
 Server runs at:
