@@ -21,7 +21,7 @@ This API takes a sentence and returns:
 {
   "sentence": "I love working with JavaScript and Node.js"
 }
-📤 Output
+📥 Output
 json
 Copy code
 {
@@ -42,7 +42,7 @@ bash
 Copy code
 npm install
 node server.js
-The server will run at:
+Server runs at:
 
 arduino
 Copy code
