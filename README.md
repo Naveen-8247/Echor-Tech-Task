@@ -37,3 +37,12 @@ Copy code
   ],
   "reversed_sentence": "Node.js and JavaScript with working love I"
 }
+
+▶ How to Run the Project Locally
+npm install
+node server.js
+
+
+Server runs at:
+
+http://localhost:5000
