@@ -9,19 +9,19 @@ This API takes a sentence and returns:
 
 ---
 
-## 🔥 API Endpoint
+## 📌 Endpoint
 
-### **POST** `/api/transform`
+### POST `/api/transform`
 
 ---
 
-## 📥 Example Input
+## 📥 Input
 
 ```json
 {
   "sentence": "I love working with JavaScript and Node.js"
 }
-📤 Example Output
+📤 Output
 json
 Copy code
 {
@@ -37,12 +37,13 @@ Copy code
   ],
   "reversed_sentence": "Node.js and JavaScript with working love I"
 }
-
-▶ How to Run the Project Locally
+▶ How to Run Locally
+bash
+Copy code
 npm install
 node server.js
+The server will run at:
 
-
-Server runs at:
-
+arduino
+Copy code
 http://localhost:5000
