@@ -1,14 +1,33 @@
-# 🚀 Echor Tech Transform API
+🚀 Echor Tech Transform API
 
-A simple Node.js Express API built as part of the Echor Tech task.
+A simple and clean Node.js + Express API built as part of the Echor Tech Assignment.
+This API accepts a sentence and returns:
 
-## 📌 Endpoint
+Total word count
 
-### POST `/api/transform`
+Unique words
 
-### Input:
+Reversed sentence
 
-```json
+📌 Endpoint
+POST /api/transform
+📥 Input
 {
   "sentence": "I love working with JavaScript and Node.js"
 }
+
+📤 Output
+{
+  "word_count": 7,
+  "unique_words": ["i", "love", "working", "with", "javascript", "and", "node.js"],
+  "reversed_sentence": "Node.js and JavaScript with working love I"
+}
+
+▶ How to Run Locally
+npm install
+node server.js
+
+
+Server runs at:
+
+http://localhost:5000
